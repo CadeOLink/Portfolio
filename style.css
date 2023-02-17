@@ -1,0 +1,131 @@
+/*
+ purple = hsla(322, 100%, 20%)
+ gray = hsla(360, 0%, 6%)
+
+*/
+html{
+    margin: 0rem 10rem;
+    padding: 0px;
+    background-color: hsla(360, 0%, 6%);
+    color: white;
+    cursor: default;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 2rem 0rem;
+    padding: 0px;
+    font-size: 1.8rem;
+    font-family: 'Overpass', sans-serif;
+    
+}
+h1, h4, p{
+    font-family: 'Overpass', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+span{
+    text-decoration: underline hsla(322, 100%, 20%) 0.3rem;
+}
+a{
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline hsla(322, 100%, 20%) 0.2rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+.header_name{
+    transform: translateX(0px) scale(1);
+    transition: 1s;
+    cursor: pointer;
+}
+.projects_text{
+    font-family: 'Overpass', sans-serif;
+    font-size: 4.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+.icons_social_medias{
+   padding: 0.3rem;
+   cursor: pointer;
+   transform: translateX(0px) scale(1);
+   transition: 1s;
+}
+.about_me_top{
+    font-size: 3rem;
+    max-width: 60%;
+}
+.about_me_bottom{
+    margin: 4rem 0rem;
+    font-size: 1rem;
+    max-width: 45%;
+}
+.contact_me{
+    margin: 1.5rem 0rem;
+}
+.photo{
+    width: 290px;
+    position: absolute;
+    top: 10vh;
+    left: 65vw;
+    background: rgb(15,15,15);
+    background: linear-gradient(180deg, transparent 30%, rgba(102,0,65,1) 100%);
+}
+.ul_imgs_projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+.imgs_projects{
+    width: 30vw;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+.inside_imgs_projects{
+    display: grid;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.h4{
+    margin-top: 1rem;
+    font-size: 85%;
+}
+.p_projects_text{
+    font-size: 50%;
+    margin: 0.1rem 0rem;
+}
+.copyright{ 
+    font-size: 1rem;
+}
+.everton{
+    color: hsla(322, 100%, 20%);
+    text-decoration: none;
+}
+.imgs_projects:hover, .imgs_projects:focus{
+    transform: translateX(10px) scale(1.1);
+    transition: 2s;
+}
+.header_name:hover{
+    transform: translateX(0px) scale(1.05);
+    transition: 0.5s;
+    color: hsla(322, 100%, 20%);
+}
+.icons_social_medias:hover{
+    transform: translateX(0px) scale(1.25);
+    transition: 0.5;
+}

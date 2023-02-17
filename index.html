@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Everton</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/icons8-mind-map-32.png">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="header_name" onclick="social_medias(4)">Everton</li>
+            <li class="header_social_medias">
+                <img src="images/icons8-instagram-30.png" alt="icon_social_media_instagram" class="icons_social_medias" onclick="social_medias(1)">
+                <img src="images/icons8-twitter-30.png" alt="icon_social_media_twitter" class="icons_social_medias" onclick="social_medias(2)">
+                <img src="images/icons8-github-30.png" alt="icon_social_media_github" class="icons_social_medias" onclick="social_medias(3)">
+            </li>
+        </ul>
+    </header>
+    <body class="container">
+        <div class="about_me">
+            <h1 class="about_me_top">Olá, prazer em conhece-ló! Me chamo <span>Everton Caldeira</span>.</h1>
+            <p class="about_me_bottom">Atualmente curso ciência da computação no IFMA e tenho técnico em informática pelo mesmo, apaixonado por tecnologia e programação</p>
+            <img src="/images/Me_photo.png" alt="photo_me" class="photo">
+        </div>
+        <a class="contact_me">contact me</a><hr style="margin: 4rem 0rem">
+        <ul class="projects">
+            <li><h1 class="projects_text">Projects</h1></li>
+            <li><a class="contact_me">contact me</a></li>
+        </ul>
+        <div>
+            <ul class="ul_imgs_projects">
+                <li alt="cracha_nlw" class="inside_imgs_projects" onclick="projects(1)">
+                    <img src="images/cracha_nlw_img.png" alt="cracha_nlw_img" class="imgs_projects">
+                    <h4 class="h4">Cracha NLW</h4>
+                    <p class="p_projects_text">Html Css JavaScript</p>
+                </li>
+                <li alt="advice_generator" class="inside_imgs_projects" onclick="projects(2)">
+                    <img src="images/advice_generator_img.png" alt="advice_generator_img" class="imgs_projects">
+                    <h4 class="h4">Advice generator</h4>
+                    <p class="p_projects_text">Html Css JavaScript</p>
+                </li>
+            </ul>
+            <ul class="ul_imgs_projects">
+                <li alt="order_summary" class="inside_imgs_projects" onclick="projects(3)">
+                    <img src="images/order_summary_img.png" alt="order_summary_img" class="imgs_projects">
+                    <h4 class="h4">Order summary</h4>
+                    <p class="p_projects_text">Html Css</p>
+                </li>
+                <li alt="qr-code" class="inside_imgs_projects" onclick="projects(4)">
+                    <img src="images/interactive_rating_img.png" alt="interactive_rating_img" class="imgs_projects">
+                    <h4 class="h4">Interactive rating</h4>
+                    <p class="p_projects_text">Html Css JavaScript</p>
+                </li>
+            </ul>
+        </div>
+        <hr style="margin: 4rem 0rem">
+    </body>
+    <footer>
+        <ul>
+            <li class="header_name" onclick="social_medias(4)">Everton</li>
+            <li class="header_social_medias">
+                <img src="images/icons8-instagram-30.png" alt="icon_social_media_instagram" class="icons_social_medias" onclick="social_medias(1)">
+                <img src="images/icons8-twitter-30.png" alt="icon_social_media_twitter" class="icons_social_medias" onclick="social_medias(2)">
+                <img src="images/icons8-github-30.png" alt="icon_social_media_github" class="icons_social_medias" onclick="social_medias(3)">
+            </li>
+        </ul>
+        <p class="copyright">Copyright &copy;2023 Portfólio | Everton. designed by <span class="everton">Everton</span></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
