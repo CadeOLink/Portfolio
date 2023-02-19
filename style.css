@@ -30,7 +30,7 @@ h1, h4, p{
 span{
     text-decoration: underline hsla(322, 100%, 20%) 0.3rem;
 }
-a{
+a, button{
     font-family: 'Overpass', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
@@ -48,6 +48,25 @@ li{
 }
 footer{
     text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    margin: 0px;
+    padding: 0px;
+
+}
+hr{
+    margin: 4rem 0rem;
+}
+input, textarea{
+    font-family: 'Overpass', sans-serif;
+    background-color: transparent;
+    border-style:none;
+    width: 25vw;
+    height: 20%;
 }
 .header_name{
     transform: translateX(0px) scale(1);
@@ -117,7 +136,7 @@ footer{
     text-decoration: none;
 }
 .imgs_projects:hover, .imgs_projects:focus{
-    transform: translateX(10px) scale(1.1);
+    transform: translateX(0px) scale(1.1);
     transition: 2s;
 }
 .header_name:hover{
@@ -128,4 +147,7 @@ footer{
 .icons_social_medias:hover{
     transform: translateX(0px) scale(1.25);
     transition: 0.5;
+}
+.contato{
+    display: flex;
 }
