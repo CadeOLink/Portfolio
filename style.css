@@ -3,6 +3,9 @@
  gray = hsla(360, 0%, 6%)
 
 */
+
+/* Tag's */
+
 html{
     margin: 0rem 10rem;
     padding: 0px;
@@ -68,6 +71,9 @@ input, textarea{
     width: 25vw;
     height: 20%;
 }
+
+/* Class's*/
+
 .header_name{
     transform: translateX(0px) scale(1);
     transition: 1s;
@@ -135,6 +141,17 @@ input, textarea{
     color: hsla(322, 100%, 20%);
     text-decoration: none;
 }
+.contato{
+    display: flex;
+}
+.about_me_bottom_contact{
+    margin: 4rem 0rem;
+    font-size: 1rem;
+    max-width: 45%;
+}
+
+/* Hover */
+
 .imgs_projects:hover, .imgs_projects:focus{
     transform: translateX(0px) scale(1.1);
     transition: 2s;
@@ -148,6 +165,73 @@ input, textarea{
     transform: translateX(0px) scale(1.25);
     transition: 0.5;
 }
-.contato{
-    display: flex;
+
+/* Reponsivo */
+
+@media screen and (max-width: 1300px) {
+    html{
+        margin: 0rem 5rem;
+    }
+    .photo{
+        left: 62vw;
+    }
+}
+@media screen and (max-width:1024px) {
+    html{
+        margin: 0rem 4rem;
+    }
+    .photo{
+        width: 240px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .photo{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 290px;
+    }
+    .about_me, .contact_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_me_bottom, .about_me_top{
+        margin: 2rem 0rem;
+        text-align: center;
+        max-width: 70%;
+    }
+    
+    .ul_imgs_projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form{
+        align-items: center;
+        text-align: center;
+    }
+    .projects_text{
+        text-align: center;
+    }
+    .about_me_bottom_contact{
+    margin: 1rem 0rem;
+    text-align: center;
+    max-width: 100%;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgs_projects{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
 }
