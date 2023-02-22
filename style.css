@@ -219,6 +219,8 @@ input, textarea{
     }
     .projects_text{
         text-align: center;
+        font-size:3.6rem;
+        margin: 0px 0px;
     }
     .about_me_bottom_contact{
     margin: 1rem 0rem;
