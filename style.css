@@ -66,10 +66,12 @@ hr{
 }
 input, textarea{
     font-family: 'Overpass', sans-serif;
-    background-color: transparent;
-    border-style:none;
+    background-color: transparent   ;
+    border-style:inset;
+    margin: 0.3rem 0rem;
     width: 25vw;
     height: 20%;
+    border-radius: 0.4rem;
 }
 
 /* Class's*/
@@ -154,7 +156,7 @@ input, textarea{
 
 .imgs_projects:hover, .imgs_projects:focus{
     transform: translateX(0px) scale(1.1);
-    transition: 2s;
+    transition: 0.7s;
 }
 .header_name:hover{
     transform: translateX(0px) scale(1.05);
@@ -163,7 +165,7 @@ input, textarea{
 }
 .icons_social_medias:hover{
     transform: translateX(0px) scale(1.25);
-    transition: 0.5;
+    transition: 0.5s;
 }
 
 /* Reponsivo */
