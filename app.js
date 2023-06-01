@@ -1,22 +1,22 @@
 function social_medias(x){
     if(x == 1){
-        window.location = "https://www.instagram.com/yosoyeverton/";
+        window.open("https://www.instagram.com/yosoyeverton/", "_blank");
     } if(x == 2){
-        window.location = "https://twitter.com/Coe_Everton";
+        window.open("https://twitter.com/Coe_Everton", "_blank");
     } if(x == 3){
-        window.location = "https://github.com/CadeOLink";
+        window.open("https://github.com/CadeOLink", "_blank");
     } if(x == 4){
-        window.location = "https://cadeolink.github.io/Cracha_NLW/";
+        window.open("https://cadeolink.github.io/Cracha_NLW/", "_blank");
     }
 }
 function projects(x){
     if(x == 1){
-    window.location = "https://cadeolink.github.io/Cracha_NLW/";
+    window.open("https://cadeolink.github.io/Cracha_NLW/", "_blank");
     } if(x == 2){
-    window.location = "https://cadeolink.github.io/Advice_generator/";
+    window.open("https://cadeolink.github.io/Advice_generator/" , "_blank");
     } if(x == 3){
-    window.location = "https://cadeolink.github.io/Order_Summary/";
+    window.open("https://cadeolink.github.io/Order_Summary/" , "_blank");
     } if(x == 4){
-    window.location = "https://cadeolink.github.io/Interaticve_rating-Frotend_mentor/";
+    window.open("https://cadeolink.github.io/Interaticve_rating-Frotend_mentor/", "_blank");
     }
 }
